@@ -1,0 +1,1251 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Cuprum:400,400i,700,700i&amp;subset=cyrillic" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>HTML Academy: Техномарт</title>
+  </head>
+  <body>
+    <noscript>
+        <p>
+          Ваш браузер не поддерживает работу со скриптами или их поддержка отключена!
+        </p>
+    </noscript>
+    <div class="main-wrap">
+      <!-- HEADER -->
+      <header class="main-header">
+        <div class="container main-header__container">
+          <div class="main-header__block--left">
+              <a 
+                class="main-logo"
+                href="index.html"
+                aria-label="Обновить главную страницу веб-сайта ТЕХНОМАРТ"
+                >
+                <img 
+                  class="main-logo__img" 
+                  src="img/svg/logo-technomart.svg"
+                  width="110"
+                  height="18"
+                  alt="Логотип веб-сайта (Надпись 'ТЕХНОМАРТ')"
+                  >
+              </a>
+              <form class="search">
+                <input 
+                  class="search__field"
+                  id="search" 
+                  placeholder="Поиск:"
+                  type="search" 
+                  aria-label="Поиск по сайту ТЕХНОМАРТ"
+                  >
+              </form>
+            </div>
+            <div class="main-header__block--right">
+              <a 
+                class="bookmark"
+                href="bookmark.html"
+                aria-label="Переход на страницу с закладками на сайте ТЕХНОМАРТ"
+                >
+                <span class="bookmark__text">
+                    Закладки: 0 
+                </span>
+              </a>
+              <a 
+                class="cart"
+                href="cart.html"
+                aria-label="Переход в корзину интернет-магазина ТЕХНОМАРТ"                
+                >
+                <span class="cart__text">
+                    Корзина: 0 
+                </span>
+              </a>
+              <a 
+              class="order"
+              href="order.html"
+              aria-label="Переход на страницу оформления заказа"              
+              >
+              Оформить заказ
+            </a>
+            </div>
+        </div>
+      </header>
+      <!-- END HEADER -->
+
+      <!-- MAIN -->
+
+      <!-- BANNER -->
+      <main class="main">
+        <div class="banner">
+          <div class="container">
+            <div class="banner-left">
+              <div class="banner-left__title-wrap">
+                <h1 class="banner-left__title">
+                    Интернет-магазин                  
+                    строительных материалов                  
+                    и инструментов для ремонта
+                </h1>
+              </div>
+            </div>
+            <div class="banner-center">
+              <address class="banner-center-content">
+                <p class="banner-center__tel">
+                  <a
+                  class="banner-center__link"
+                  href="tel:+78125550555"
+                  title="Осуществить вызов в колл-центр интернет-магазина ТЕХНОМАРТ"
+                  aria-label="Осуществить вызов в колл-центр интернет-магазина ТЕХНОМАРТ"
+                  >
+                    <img 
+                    class="banner-center__images"
+                    src="img/svg/icon-phone.svg" 
+                    width="19"
+                    height="19"
+                    alt="Иконка телефонной трубки"
+                    >
+                    +7 (812) 555-05-55
+                  </a>
+                </p>
+                <p class="banner-center__address">
+                    г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8
+                </p>
+              </address>
+            </div>
+            <div class="banner-right">
+              <ul class="banner-right__list">
+                <li class="banner-right__item">
+                  <button 
+                    class="banner-right__button banner-right__button-login"
+                    aria-label="Осуществить вход в личный кабинет сайта ТЕХНОМАРТ"
+                    >
+                      Войти
+                  </button>
+                </li>
+                <li class="banner-right__item">
+                  <button 
+                    class="banner-right__button banner-right__button-registration"
+                    aria-label="Зарегистрироваться на сайте ТЕХНОМАРТ"
+                    >
+                      Регистрация
+                  </button>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+        <!-- NAVIGATION -->
+        <div class="container">       
+          <nav class="main-navigation">
+            <ul class="main-navigation__list">
+              <li class="main-navigation__item">
+                <a 
+                  class="main-navigation__link"
+                  href="index.html"
+                  aria-label="Обновить главную страницу веб-сайта ТЕХНОМАРТ"
+                >
+                Главная
+                </a>
+              </li>
+              <li class="main-navigation__item">
+                <a 
+                  class="main-navigation__link"
+                  href="catalog.html"
+                  aria-label="Переход на страницу с информацией о компании ТЕХНОМАРТ"
+                >
+                Компания
+                </a>
+              </li>
+              <li class="main-navigation__item">
+                <a 
+                  class="main-navigation__link"
+                  href="catalog.html"
+                  aria-label="Переход на страницу каталога товаров"
+                >
+                Каталог
+                </a>
+              </li>
+              <li class="main-navigation__item">
+                <a 
+                  class="main-navigation__link"
+                  href="news.html"
+                  aria-label="Переход на новостную страницу компании ТЕХНОМАРТ "
+                >
+                Новости
+                </a>
+              </li>
+              <li class="main-navigation__item">
+                <a 
+                  class="main-navigation__link"
+                  href="offers.html"
+                  aria-label="Переход на страницу со спецпредложениями"
+                >
+                Спецпредложения
+                </a>
+              </li>
+              <li class="main-navigation__item">
+                <a 
+                  class="main-navigation__link"
+                  href="delivery.html"
+                  aria-label="Переход на страницу с описанием условий доставки"
+                >
+                Доставка
+                </a>
+              </li>
+              <li class="main-navigation__item">
+                <a 
+                  class="main-navigation__link"
+                  href="contacts.html"
+                  aria-label="Переход на страницу с контактной информацией"
+                >
+                Контакты
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+ 
+        <!-- END NAVIGATION -->   
+      </div>     
+      <!-- END BANNER -->
+
+      <!-- PROMO BLOCK -->
+      <section class="promo container">
+        <div class="promo__row">
+          <div class="promo__card promo__card--materials">
+            <span class="new-product show-mark">new</span>
+            <div class="promo__card-content">
+              <div class="card-content__info">
+                <h3 class="card-content__title">
+                  Материалы
+                </h3>
+                <a 
+                  class="card-content__link"
+                  href="materials.html"
+                  aria-label="Переход в категорию товаров 'Материалы'"
+                  >
+                  на любой вкус
+                </a>
+              </div>
+              <div class="card-content__images-block">
+                <img 
+                  class="card-content__images"
+                  src="img/svg/icon-materials.svg" 
+                  width="44"
+                  height="65"
+                  alt="Иконка категории товара"
+                  >
+              </div>
+            </div>
+          </div>
+          <div class="promo__card promo__card--tools">
+            <span class="new-product">new</span>
+            <div class="promo__card-content">
+              <div class="card-content__info">
+                <h3 class="card-content__title">
+                    Инструмент
+                </h3>
+                <a 
+                  class="card-content__link"
+                  href="tools.html"
+                  aria-label="Переход в категорию товаров 'Инструмент'"
+                  >
+                  НА ВСЕ СЛУЧАИ
+                </a>
+              </div>
+              <div class="card-content__images-block">
+                <img 
+                  class="card-content__images"
+                  src="img/svg/icon-tools.svg" 
+                  width="75"
+                  height="61"
+                  alt="Иконка категории товара"
+                  >
+              </div>
+            </div>
+          </div>
+          <div class="promo__card promo__card--equipment">
+            <span class="new-product">new</span>
+            <div class="promo__card-content">
+              <div class="card-content__info">
+                <h3 class="card-content__title">
+                  Техника
+                </h3>
+                <a 
+                  class="card-content__link"
+                  href="equipment.html"
+                  aria-label="Переход в категорию товаров 'Техника'"
+                  >
+                  для стройки
+                </a>
+              </div>
+              <div class="card-content__images-block">
+                <img 
+                  class="card-content__images"
+                  src="img/svg/icon-equipment.svg" 
+                  width="78"
+                  height="62"
+                  alt="Иконка категории товара"
+                  >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="promo__row promo__doble-row">
+          <div class="promo-slider">
+            <div class="promo-slider__overlay--perforator">
+              <h4 class="overlay__title">
+                Перфораторы
+              </h4>
+              <p class="overlay__text">
+                Настоящие мужские игрушки
+              </p>
+            </div>
+            <div class="promo-slider__overlay--drill">
+              <h4 class="overlay__title">
+                  Дрели
+              </h4>
+              <p class="overlay__text">
+                Соседям на радость!
+              </p>
+            </div>
+            <div class="promo-slider__btn-box">
+              <button 
+                aria-label="Переключить слайдер назад"              
+                class="promo-slider__btn-prew">
+                <img 
+                  class="promo-slider__btn-prew-content"
+                  src="img/svg/icon-left.svg" 
+                  width="22"
+                  height="40"
+                  alt="Стрелка назад (лево)"
+                  >
+              </button>
+              <button 
+                aria-label="Переключить слайдер вперед"              
+                class="promo-slider__btn-next"
+                >
+                <img 
+                  class="promo-slider__btn-next-content"
+                  src="img/svg/icon-right.svg" 
+                  width="22"
+                  height="40"
+                  alt="Стрелка вперед (право)"
+                  >
+              </button>
+            </div>
+            <div class="promo-slider__link-wrap">
+              <div class="promo-slider__link--btn">
+                <a 
+                  class="promo-slider__link"
+                  href="catalog.html"
+                  aria-label="Переход на страницу каталога товаров ТЕХНОМАРТ"              
+                  >
+                  ОТКРЫТЬ КАТАЛОГ
+                </a>
+              </div>
+              <ul class="wrap-slider-radiobutton">
+                <li class="wrap-slider-radiobutton__item">
+                  <input 
+                    class="visually-"
+                    type="radio"
+                    name="slider-radiobutton"  
+                    value="drill"
+                    >
+                    <span class="radio-indicator"></span>
+                </li>
+                <li class="wrap-slider-radiobutton__item wrap-slider-radiobutton__item--second">
+                  <input 
+                    class="visually-"
+                    type="radio"
+                    name="slider-radiobutton"
+                    value="perforator"
+                    checked
+                    >
+                    <span class="radio-indicator"></span>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="promo_double-block">
+            <div class="promo__card promo__card--discount">
+                <span class="new-product">new</span>
+                <div class="promo__card-content">
+                  <div class="card-content__info">
+                    <h3 class="card-content__title">
+                        Скидки 50%
+                    </h3>
+                    <a 
+                      class="card-content__link"
+                      href="discount.html"
+                      aria-label="Переход на страницу со скидками на товар"              
+                      >
+                      На 350 ТОВАРОВ
+                    </a>
+                  </div>
+                  <div class="card-content__images-block">
+                    <img 
+                      class="card-content__images"
+                      src="img/svg/icon-discount.svg" 
+                      width="59"
+                      height="72"
+                      alt="Иконка категории товара"
+                      >
+                  </div>
+                </div>
+              </div>
+              <div class="promo__card promo__card--delivery">
+                <span class="new-product">new</span>
+                <div class="promo__card-content">
+                  <div class="card-content__info">
+                    <h3 class="card-content__title">
+                      Доставка
+                    </h3>
+                    <a 
+                      class="card-content__link"
+                      href="delivery.html"
+                      aria-label="Переход на страницу с описанием условий доставки"              
+                      >
+                      бесплатно
+                    </a>
+                  </div>
+                  <div class="card-content__images-block">
+                    <img 
+                      class="card-content__images"
+                      src="img/svg/icon-delivery.svg"
+                      width="78" 
+                      height="63" 
+                      alt="Иконка категории товара"
+                      >
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+      </section>
+      <!-- END PROMO BLOCK -->
+
+      <!-- POPULAR PRODUCTS -->
+      <section class="popular-products container">
+        <div class="popular-products__banner">
+          <h2 class="popular-products__title">
+              Популярные товары:
+          </h2>
+          <div>
+            <a
+              class="popular-products__more" 
+              href="popular-products.html"
+              aria-label="Переход на страницу с популярными товарами"              
+              >
+                все популярные товары
+            </a>
+          </div>
+        </div>
+        <div class="popular-products__row">
+            <article class="popular-products__cell">
+              <span class="new-product">new</span>
+              <div class="popular-products__btn">
+                <img 
+                  class="popular-products__images"
+                  src="img/products-perforator-bosch-bfg-9000.jpg" 
+                  width="218"
+                  height="170"
+                  alt="Перфоратор BOSCH"
+                >
+                <div class="card-product__btn-wrap">
+                    <button 
+                      class="card-product__btn--buy"
+                      aria-label="Переход на страницу оформления заказа"              
+                      >
+                      Купить
+                    </button>
+                    <button 
+                      class="card-product__btn--to-bookmark"
+                      aria-label="Переход на страницу закладок веб-сайта ТЕХНОМАРТ"              
+                      >
+                        В закладки
+                    </button>
+                  </div>
+                </div>
+                <h2 class="card-product__title">
+                  Перфоратор BOSCH
+                  
+                  BFG 9000
+                </h2>
+                <p class="old-price">
+                  32500 Р.
+                </p>
+                <p class="new-price">
+                  25500 Р.
+                </p>
+              </article>
+              <article class="popular-products__cell">
+                <span class="new-product">new</span>
+                <div class="popular-products__btn">
+                  <img 
+                    class="popular-products__images"
+                    src="img/products-perforator-bosch-bfg-3000.jpg"
+                    width="218"
+                    height="170" 
+                    alt="Перфоратор BOSCH"
+                  >
+                  <div class="card-product__btn-wrap">
+                      <button 
+                        class="card-product__btn--buy"
+                        aria-label="Переход на страницу оформления заказа"              
+                        >
+                        Купить
+                      </button>
+                      <button 
+                        class="card-product__btn--to-bookmark"
+                        aria-label="Переход на страницу закладок веб-сайта ТЕХНОМАРТ"              
+                        >
+                          В закладки
+                      </button>
+                    </div>
+                  </div>
+                  <h2 class="card-product__title">
+                    Перфоратор BOSCH                    
+                    BFG 3000
+                  </h2>
+                  <p class="old-price">
+                    22500 Р.
+                  </p>
+                  <p class="new-price">
+                    15500 Р.
+                  </p>
+                </article>
+                <article class="popular-products__cell">
+                  <span class="new-product">new</span>
+                  <div class="popular-products__btn">
+                    <img 
+                      class="popular-products__images"
+                      src="img/products-perforator-bosch-bfg-6000.jpg" 
+                      width="218"
+                      height="170"
+                      alt="Перфоратор BOSCH"
+                    >
+                    <div class="card-product__btn-wrap">
+                        <button 
+                          class="card-product__btn--buy"
+                          aria-label="Переход на страницу оформления заказа"              
+                          >
+                          Купить
+                        </button>
+                        <button 
+                          class="card-product__btn--to-bookmark"
+                          aria-label="Переход на страницу закладок веб-сайта ТЕХНОМАРТ"              
+                          >
+                            В закладки
+                        </button>
+                      </div>
+                    </div>
+                    <h2 class="card-product__title">
+                      Перфоратор BOSCH                      
+                      BFG 6000
+                    </h2>
+                    <p class="old-price">
+                      30500 Р.
+                    </p>
+                    <p class="new-price">
+                      25500 Р.
+                    </p>
+                </article>
+                <article class="popular-products__cell">
+                  <span class="new-product show-mark">new</span>
+                  <div class="popular-products__btn">
+                    <div class="card-product__btn-wrap">
+                        <button 
+                          class="card-product__btn--buy"
+                          aria-label="Переход на страницу оформления заказа"              
+                          >
+                          Купить
+                        </button>
+                        <button 
+                          class="card-product__btn--to-bookmark"
+                          aria-label="Переход на страницу закладок веб-сайта ТЕХНОМАРТ"              
+                          >
+                            В закладки
+                        </button>
+                      </div>
+                    </div>                    
+                    <img 
+                      class="popular-products__images"
+                      src="img/products-perforator-bosch-bfg-2000.jpg" 
+                      width="218"
+                      height="170"
+                      alt="Перфоратор BOSCH"
+                    >
+                    <h2 class="card-product__title card-product__title--without-old-price">
+                      Перфоратор BOSCH                      
+                      BFG 2000
+                    </h2>
+                    <p class="new-price">
+                      12500 Р.
+                    </p>
+                </article>
+            </div>
+      </section>
+      <!-- END POPULAR PRODUCTS -->
+
+      <!-- POPULAR MANUFACTURERS -->
+      <section class="popular-manufacturers container">
+          <div class="popular-manufacturers__banner">
+            <h2 class="popular-manufacturers__title">
+                Популярные производители:
+            </h2>
+            <div>
+              <a
+                class="popular-manufacturers__more" 
+                href="popular-manufacturers.html"
+                aria-label="Переход на страницу с перечнем всех производителей перфораторов"                            
+                >
+                Все  производители
+              </a>
+            </div>
+          </div>
+          <div class="popular-manufacturers__block">
+            <div class="popular-manufacturers__row">
+              <div class="popular-manufacturers__cell">
+                <a 
+                  class="popular-manufacturers__link"
+                  href="bosch.html"
+                  aria-label="Все перфораторы производителя BOSCH"              
+                  >
+                  <img 
+                    class="popular-manufacturers__images"
+                    src="img/manufacturers-bosch.jpg" 
+                    width="126"
+                    height="37"
+                    alt="Логотип BOSCH"
+                  >
+                  BOSCH
+                </a>
+              </div>
+              <div class="popular-manufacturers__cell">
+                <a 
+                  class="popular-manufacturers__link"
+                  href="makita.html"
+                  aria-label="Все перфораторы производителя Makita"              
+                  >
+                  <img 
+                    class="popular-manufacturers__images"
+                    src="img/manufacturers-makita.jpg" 
+                    width="123"
+                    height="40"
+                    alt="Логотип Makita"
+                  >
+                  Makita
+                </a>
+              </div>
+              <div class="popular-manufacturers__cell">
+                <a 
+                  class="popular-manufacturers__link"
+                  href="dewalt.html"
+                  aria-label="Все перфораторы производителя DeWALT"              
+                  >
+                  <img 
+                    class="popular-manufacturers__images"
+                    src="img/manufacturers-dewalt.jpg" 
+                    width="146"
+                    height="44"
+                    alt="Логотип DeWALT"
+                  >
+                  DeWALT
+                </a>
+              </div>
+              <div class="popular-manufacturers__cell">
+                <a 
+                  class="popular-manufacturers__link"
+                  href="interskol.html"
+                  aria-label="Все перфораторы производителя Интерскол"              
+                  >
+                  <img 
+                    class="popular-manufacturers__images"
+                    src="img/manufacturers-interskol.jpg" 
+                    width="200"
+                    height="88"
+                    alt="Логотип Интерскол"
+                  >
+                  Интерскол
+                </a>
+              </div>
+            </div>
+            <div class="popular-manufacturers__row">
+            <div class="popular-manufacturers__cell">
+              <a 
+                class="popular-manufacturers__link"
+                href="hitachi.html"
+                aria-label="Все перфораторы производителя HITACHI"              
+                >
+                <img 
+                  class="popular-manufacturers__images"
+                  src="img/manufacturers-hitachi.jpg" 
+                  width="169"
+                  height="31"
+                  alt="Логотип HITACHI"
+                >
+                HITACHI
+              </a>
+            </div>
+            <div class="popular-manufacturers__cell">
+              <a 
+                class="popular-manufacturers__link"
+                href="lg.html"
+                aria-label="Все перфораторы производителя LG"              
+                >
+                <img 
+                  class="popular-manufacturers__images"
+                  src="img/manufacturers-lg.jpg" 
+                  width="121"
+                  height="73"
+                  alt="Логотип LG"
+                >
+                LG
+              </a>
+            </div>
+            <div class="popular-manufacturers__cell">
+              <a 
+                class="popular-manufacturers__link"
+                href="aeg.html"
+                aria-label="Все перфораторы производителя AEG"              
+                >
+                <img 
+                  class="popular-manufacturers__images"
+                  src="img/manufacturers-aeg.jpg" 
+                  width="151"
+                  height="96"
+                  alt="Логотип AEG Power Solutions"
+                >
+                AEG Power Solutions
+              </a>
+            </div>
+            <div class="popular-manufacturers__cell">
+              <a 
+                class="popular-manufacturers__link"
+                href="metabo.html"
+                aria-label="Все перфораторы производителя Metabo"              
+                >
+                <img 
+                  class="popular-manufacturers__images"
+                  src="img/manufacturers-metabo.jpg" 
+                  width="204"
+                  height="69"
+                  alt="Логотип Metabo 'work. don*t play'"
+                >
+                Metabo
+              </a>
+            </div>
+          </div>
+          </div>
+        </section>
+        <!-- END POPULAR MANUFACTURERS -->
+
+        <!-- SERVICES -->
+        <section class="services">
+            <div class="container">
+              <h2 class="services__title">
+                  Сервисы
+              </h2>
+              <p class="services__info">
+                Хороший интернет-магазин отличается от плохого не только ценами!                
+                Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.
+              </p>
+              <div class="services__selection">
+                <ul class="services__list">
+                  <li class="services__item">
+                    <button  
+                      class="services__option services__option--active"
+                      aria-label="Переключить слайдер на слайд с условиями доставки"                                   
+                      >
+                        Доставка
+                    </button>
+                  </li>
+                  <li class="services__item">
+                    <button  
+                      class="services__option"
+                      aria-label="Переключить слайдер на слайд с гарантийными объязательностями"                                   
+                      >
+                        Гарантия
+                    </button>
+                  </li>
+                  <li class="services__item">
+                    <button  
+                      class="services__option"
+                      aria-label="Переключить слайдер на слайд с условиями кредитования"                                   
+                      >
+                        Кредит
+                    </button>
+                  </li>
+                </ul>
+                <div class="services__description">
+                  <article class="delivery">
+                    <h3 class="delivery__title">
+                      Доставка
+                    </h3>
+                    <p class="delivery__description">
+                      Мы с удовольствием доставим ваш товар прямо 
+                      к вашему подъезду совершенно бесплатно!
+                      Ведь мы неплохо заработаем, 
+                      поднимая его на ваш этаж!
+                    </p>
+                  </article>
+                  <article class="warranty">
+                    <h3 class="warranty__title">
+                      Гарантия
+                    </h3>
+                    <p class="warranty__description">
+                      Если купленный у нас товар поломается или заискрит, 
+                      а также в случае пожара, спровоцированного его возгаранием,  
+                      вы всегда можете быть уверены в нашей гарантии. 
+                      Мы обменяем сгоревший товар на новый. 
+                      Дом уж восстановите как-нибудь сами.
+                    </p>
+                  </article>
+                  <article class="credit">
+                    <h3 class="credit__title">
+                      Кредит
+                    </h3>
+                    <p class="credit__description">
+                      Залезть в долговую яму стало проще! 
+                      Кредитные консультанты придут вам на помощь.
+                    </p>
+                    <button
+                      class="credit__button"
+                      aria-label="Отправить заявку на оформление кредита на товар"  
+                    >
+                      ОТПРАВИТЬ ЗАЯВКУ
+                    </button>
+                  </article>
+                </div>
+                <div class="services-img">
+                  <img 
+                    class="services-img__delivery"
+                    src="img/services-delivery.png" 
+                    width="468"
+                    height="261"
+                    alt="Изображение грузового автомобиля"
+                    >
+                  <img 
+                    class="services-img__warranty"
+                    src="img/services-warranty.png" 
+                    width="468"
+                    height="261"
+                    alt="Изображение грузового автомобиля"
+                    >
+                  <img 
+                    class="services-img__credit"
+                    src="img/services-credit.png" 
+                    width="465"
+                    height="285"
+                    alt="Изображение грузового автомобиля"
+                    >
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- END SERVICES -->
+
+        <!-- ABOUT -->
+        <section class="about">
+          <div class="about-container container">
+            <div class="company">
+              <h2 class="company__title">
+                КОМПАНИЯ «Техномарт»
+              </h2>
+              <p class="company__description">
+                Настоящий мужской шоппинг начинается здесь! 
+                Огромный выбор товаров для 
+                ремонта и строительства не оставит равнодушными 
+                любителей сэкономить на гастарбайтерах.
+              </p>
+              <p class="company__description">             
+                Мы можем доставить ваш товар в самые отдаленные точки России!
+                Техномарт работает со многими транспортными компаниями:  
+              </p>
+              <ul class="company__list">
+                <li class="company__item">
+                  Деловые линии
+                </li>
+                <li class="company__item">
+                  Автотрейдинг
+                </li>
+                <li class="company__item">
+                  ЖелДорЭкспедиция
+                </li>
+              </ul>
+              <button 
+                class="company__btn"
+                aria-label="Перейти на страницу с информацией о компании ТЕХНОМАРТ"
+                >
+                Подробнее о компании
+              </button>
+            </div>
+
+            <div class="contacts">
+              <h2 class="contacts__title">
+                КОНТАКТЫ
+              </h2>
+              <p  class="contacts__text">
+                Вы можете забрать товар сами, 
+                заехав в наш офис:
+              </p>
+              <button
+                class="contacts__map--wrap"
+                aria-label="Открыть карту с расположением на ней компании Техномарт"
+                >
+                <img 
+                  class="contacts__map"
+                  src="img/map-small.jpg" 
+                  width="300"
+                  height="158"
+                  alt="Расположение компании Техномарт на карте по адресу 
+                  г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8"
+                >
+              </button>
+
+              <!-- POPUP MAP -->
+              <div class="popup-map">
+                <button  
+                  class="popup-map__close-btn"
+                  aria-label="Закрыть карту с расположением на ней компании Техномарт"
+                  >
+                  <img 
+                  class="popup-map__close-btn-img"
+                  src="img/svg/icon-close.svg" 
+                  width="21"
+                  height="21"
+                  alt="Иконка 'Закрыть' (красный крестик)"
+                  >
+                </button>
+              </div>
+              <!-- END POPUP MAP -->
+
+              <button 
+                class="contacts__btn"
+                aria-label="Открыть форму обратной связи"  
+                >
+                  Заблудились? НапиШИТЕ НАМ!
+              </button>
+
+              <!-- POPUP WRITE US -->
+              <div class="popup-write-us">
+                <div class="popup-write-us__close-btn-wrap">
+                  <button  
+                    class="popup-write-us__close-btn"
+                    aria-label="Закрыть форму обратной связи"                      
+                    >
+                    <img 
+                    class="popup-write-us__close-btn-img"
+                    src="img/svg/icon-close.svg" 
+                    width="21"
+                    height="21"
+                    alt="Иконка 'Закрыть' (красный крестик)"
+                    >
+                  </button>
+                </div>
+                  <form 
+                    class="feedback-form"
+                    action="https://echo.htmlacademy.ru"
+                    method="post"
+                    >
+                    <fieldset class="fieldset main-form">
+                      <legend class="visually-hidden">
+                          Форма обратной связи
+                      </legend>
+                      <div class="user-data">
+                        <div class="user-data__name">
+                            <label 
+                              class="user-data__label"
+                              for="user-name">
+                                Ваше имя:
+                            </label>
+                            <input 
+                              class="feedback-form__user-name"
+                              id="user-name"
+                              type="text" 
+                              name="user-name"
+                              pattern="^([a-zA-Z]{2,}\s[a-zA-z]{1,}'?-?[a-zA-Z]{2,}\s?([a-zA-Z]{1,})?)"
+                              placeholder="Имя Фамилия"
+                              maxlength="50"
+                              minlength="2"
+                              aria-label="Поле для ввода имени пользователя"
+                              required
+                              onClick={this.changeInputUserName.bind(this)
+                              >
+                          </div>
+                          <div class="user-data__email">
+                            <label 
+                              class="user-data__label"
+                              for="user-email"
+                              >
+                                Ваш e-mail:
+                            </label>
+                            <input 
+                              class="feedback-form__user-email"
+                              id="user-email"
+                              type="email" 
+                              name="user-email"                              
+                              pattern="^\w[\w!#$%&'*+\-/=?^_`{|}~]+\.?[\w!#$%&'*+\-/=?^_`{|}~]+@\w{1,12}\.[A-z]{2,3}$"
+                              placeholder="email@example.com"
+                              maxlength="1000"
+                              minlength="3"
+                              required
+                              aria-label="Поле для ввода email пользователя"
+                              onClick={this.changeInputUserEmail.bind(this)
+                              >
+                          </div>
+                      </div>
+                      <div class="feedback-form__elements">
+                        <div class="textarea-wrap">
+                          <label 
+                            class="user-data__label"
+                            for="user-letter"
+                          >
+                              Текст письма:
+                          </label>
+                          <textarea 
+                            class="user-letter" 
+                            name="user-letter"  
+                            id="user-letter" 
+                            placeholder="В свободной форме"
+                            minlength="1"
+                            maxlength="1000000"
+                            rows="5"
+                            required
+                            aria-label="Поле для ввода текста письма"
+                            ></textarea>
+                        </div>
+                        <div class="feedback-form__btn-wrap">
+                          <button 
+                            class="feedback-form__btn"
+                            aria-label="Отправить форму обратной связи"
+                            >
+                            <span>
+                                ОТПРАВИТЬ
+                            </span>    
+                          </button>
+                        </div>
+                      </div>
+                    </fieldset>
+                   </form>
+                </div>              
+              <!-- END POPUP WRITE US -->
+
+            </div>
+          </div>
+        </section>
+        <!-- END ABOUT -->
+      </main>
+      <!-- END MAIN -->
+
+      <!-- FOOTER -->
+      <footer class="main-footer">
+        <div class="main-footer__top">
+          <div class="container">
+            <div  class="main-footer__top--logo">
+              <div class="footer-logo-wrap">
+                <a 
+                  class="footer-logo"
+                  href="index.html"
+                  aria-label="Обновить главную страницу веб-сайта ТЕХНОМАРТ"
+                  >
+                  <img 
+                    class="footer-logo__img" 
+                    src="img/svg/logo-technomart.svg"
+                    width="138"
+                    height="23"
+                    alt="Логотип веб-сайта (Надпись 'ТЕХНОМАРТ')"
+                    >
+                </a>
+              </div>
+
+              <!-- FOOTER NAVIGATION -->
+              <nav class="footer-navigation-top">
+                <ul class="footer-navigation-top__list">
+                    <li class="footer-navigation-top__item">
+                      <a 
+                        class="footer-navigation-top__link"
+                        href="company.html"
+                        aria-label="Перейти на страницу с информацией о компании ТЕХНОМАРТ"
+                        >
+                        Компания
+                      </a>
+                    </li>
+                    <li class="footer-navigation-top__item">
+                      <a 
+                        class="footer-navigation-top__link"
+                        href="news.html"
+                        aria-label="Перейти на новостную страницу сайта"                        
+                        >
+                        Новости
+                      </a>
+                    </li>
+                    <li class="footer-navigation-top__item">
+                      <a 
+                        class="footer-navigation-top__link"
+                        href="catalog.html"
+                        aria-label="Перейти в каталог товаров"                        
+                        >
+                        Каталог
+                      </a>
+                    </li>
+                    <li class="footer-navigation-top__item">
+                      <a 
+                        class="footer-navigation-top__link"
+                        href="delivery.html"
+                        aria-label="Перейти на страницу с описанием условий доставки товаров"
+                        >
+                        Доставка
+                      </a>
+                    </li>
+                    <li class="footer-navigation-top__item">
+                      <a 
+                        class="footer-navigation-top__link"
+                        href="contacts.html"
+                        aria-label="Перейти на страницу с контактной информацией"
+                        >
+                        Контакты
+                      </a>
+                    </li>
+                </ul>
+              </nav>
+              <!-- END FOOTER NAVIGATION -->
+            </div>
+
+            <div  class="main-footer__top--address">       
+              <address class="footer-address">
+                  г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8                  
+                  <a
+                class="footer-tel"
+                href="tel:+78125550555"
+                title="Осуществить вызов в колл-центр интернет-магазина 'ТЕХНОМАРТ'"
+                aria-label="Осуществить вызов в колл-центр интернет-магазина 'ТЕХНОМАРТ'"
+                >
+                  +7 (812) 555-05-55
+                </a>
+              </address>
+
+              <!-- PRODUCT CATEGORY NAVIGATION -->
+              <nav class="footer-navigation-bottom">
+                <ul class="footer-navigation-bottom__list">
+                    <li class="footer-navigation-bottom__item">
+                      <a 
+                        class="footer-navigation-bottom__link"
+                        href="materials.html"
+                        aria-label="Перейти на страницу с товарами в категории 'Материалы'"
+                        >
+                        Материалы
+                      </a>
+                    </li>
+                    <li class="footer-navigation-bottom__item">
+                      <a 
+                        class="footer-navigation-bottom__link"
+                        href="equipment.html"
+                        aria-label="Перейти на страницу с товарами в категории 'Техника'"
+                        >
+                        Техника
+                      </a>
+                    </li>
+                    <li class="footer-navigation-bottom__item">
+                      <a 
+                        class="footer-navigation-bottom__link"
+                        href="tools.html"
+                        aria-label="Перейти на страницу с товарами в категории 'Инструмент'"
+                        >
+                        Инструмент
+                      </a>
+                    </li>
+                    <li class="footer-navigation-bottom__item">
+                      <a 
+                        class="footer-navigation-bottom__link"
+                        href="offers.html"
+                        aria-label="Перейти на страницу со спецпредложениями"
+                        >
+                        Спецпредложения
+                      </a>
+                    </li>
+                  </ul>
+              </nav>
+              <!-- END PRODUCT CATEGORY NAVIGATION -->
+
+            </div>
+          </div>
+        </div>
+        <div class="main-footer__bottom">
+          <div class="container main-footer__bottom-container">
+            <p class="main-footer__copyright--left">
+                &#169; 2010–2019 Компания «Техномарт»                
+                Все права защищены
+            </p>
+            <ul class="social_list">
+              <li>
+                <a 
+                class="social_button"
+                href="https://vk.com/"
+                aria-label="Перейти на страницу интернет-магазина ТЕХНОМАРТ Вконтакте"
+                target="_blank"
+                >
+                  Вконтакте
+                </a>
+              </li>
+              <li>
+                <a 
+                class="social_button"
+                href="https://www.facebook.com/"
+                aria-label="Перейти на страницу интернет-магазина ТЕХНОМАРТ на Фейсбук"
+                target="_blank"
+                >
+                  Фейсбук
+                </a>
+              </li>
+              <li>
+                <a 
+                class="social_button"
+                href="https://www.instagram.com/"
+                aria-label="Перейти на страницу интернет-магазина ТЕХНОМАРТ в Инстаграм"
+                target="_blank"
+                >
+                  Инстаграм
+                </a>
+              </li>
+            </ul>
+            <div class="main-footer__copyright--right">
+              <p class="footer-feedback">
+                  Обратная связь:                  
+                  <a
+                  class="feedback__link"
+                  href="mailto:mail@htmlacademy.ru"
+                  title="Написать"
+                  aria-label="Написать на mail@htmlacademy.ru"
+                  >
+                  mail@htmlacademy.ru
+                </a>
+                  
+              </p>              
+              <p class="developed">
+                  Разработано —                  
+                  <a 
+                    class="developed__link"
+                    href="https://htmlacademy.ru/intensive/htmlcss"
+                    target="_blank"
+                    aria-label="Перейти на веб-сайт разработчиков"
+                    >
+                      htmlacademy.ru
+                  </a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- END FOOTER -->
+
+      <div class="popup-overlay"></div>
+
+    </div>
+
+    <!-- SCRPTS -->
+    <script src="js/script.js"></script>    
+    <!-- END SCRIPTS -->
+  </body>
+</html>

@@ -1,0 +1,1149 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Cuprum:400,400i,700,700i&amp;subset=cyrillic" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>HTML Academy: Техномарт - Каталог</title>
+  </head>
+  <body>
+    <noscript>
+        <p>
+          Ваш браузер не поддерживает работу со скриптами или их поддержка отключена!
+        </p>
+    </noscript>
+    <div class="main-wrap">
+      <!-- HEADER -->
+      <header class="main-header">
+          <div class="container main-header__container">
+            <div class="main-header__block--left">
+                <a 
+                  class="main-logo"
+                  href="index.html"
+                  aria-label="Обновить главную страницу веб-сайта ТЕХНОМАРТ"
+                  >
+                  <img 
+                    class="main-logo__img" 
+                    src="img/svg/logo-technomart.svg"
+                    width="110"
+                    height="18"
+                    alt="Логотип веб-сайта (Надпись 'ТЕХНОМАРТ')"
+                    >
+                </a>
+                <form class="search">
+                  <input 
+                    class="search__field"
+                    id="search" 
+                    placeholder="Поиск:"
+                    type="search" 
+                    aria-label="Поиск по сайту ТЕХНОМАРТ"
+                    >
+                </form>
+              </div>
+              <div class="main-header__block--right">
+                <a 
+                  class="bookmark"
+                  href="bookmark.html"
+                  aria-label="Переход на страницу с закладками на сайте ТЕХНОМАРТ"
+                  >
+                  <span class="bookmark__text">
+                      Закладки: 0 
+                  </span>
+                </a>
+                <a 
+                  class="cart"
+                  href="cart.html"
+                  aria-label="Переход в корзину интернет-магазина ТЕХНОМАРТ"                
+                  >
+                  <span class="cart__text">
+                      Корзина: 0 
+                  </span>
+                </a>
+                <a 
+                class="order"
+                href="order.html"
+                aria-label="Переход на страницу оформления заказа"              
+                >
+                Оформить заказ
+              </a>
+              </div>
+          </div>
+        </header>
+        <!-- END HEADER -->
+
+      <!-- MAIN -->
+      <!-- BANNER -->
+      <main class="main">
+        <div class="banner">
+          <div class="container">
+            <div class="banner-left">
+              <p class="banner-left__title">
+                  Интернет-магазин                  
+                  строительных&nbsp;материалов    
+                  и&nbsp;инструментов&nbsp;для&nbsp;ремонта
+              </p>
+            </div>
+            <div class="banner-center">
+              <address class="banner-center">
+                <p class="banner-center__tel">
+                  <a
+                  class="banner-center__link"
+                  href="tel:+78125550555"
+                  title="Осуществить вызов в колл-центр интернет-магазина 'ТЕХНОМАРТ'"
+                  aria-label="Осуществить вызов в колл-центр интернет-магазина 'ТЕХНОМАРТ'"
+                  >
+                    <img 
+                    class="banner-center__images"
+                    src="img/svg/icon-phone.svg" 
+                    width="19"
+                    height="19"
+                    alt="Иконка телефонной трубки"
+                    >
+                    +7 (812) 555-05-55
+                  </a>
+                </p>
+                <p class="banner-center__address">
+                    г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8
+                </p>
+              </address>
+            </div>
+            <div class="banner-right">
+              <div class="profile-wrap">
+                <a 
+                  class="profile"
+                  href="profile.html"
+                  aria-label="Перейти на страницу Вашей учетной записи"
+                  >
+                  Равшан Джамшутович
+                </a>
+                <a
+                  class="logout" 
+                  href="logout.html"
+                  aria-label="Выйти с учетной записи"
+                  >
+                  <img 
+                    class="logout__image"
+                    src="img/icon-logout.png" 
+                    width="20"
+                    height="17"
+                    alt="Иконка 'выйти' (стрелка вправо)"
+                  >
+                </a>
+              </div>
+              <ul class="userlinks__list">
+                <li class="userlinks__item">
+                  <a 
+                    class="userlinks__link"
+                    href="user-orders.html"
+                    aria-label="Перейти на страницу со списком заказов"
+                    >
+                    Мои заказы
+                  </a>
+                  <li class="userlinks__item">
+                    <a 
+                      class="userlinks__link"
+                      href="personal-cabinet.html"
+                      aria-label="Перейти в личный кабинет пользователя"
+                      >
+                      Личный кабинет
+                    </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+       <!-- NAVIGATION -->
+       <div class="container">
+        <nav class="main-navigation">
+            <ul class="main-navigation__list">
+              <li class="main-navigation__item">
+                <a 
+                  class="main-navigation__link"
+                  href="index.html"
+                  aria-label="Обновить главную страницу веб-сайта ТЕХНОМАРТ"
+                >
+                Главная
+                </a>
+              </li>
+              <li class="main-navigation__item">
+                <a 
+                  class="main-navigation__link"
+                  href="catalog.html"
+                  aria-label="Переход на страницу с информацией о компании ТЕХНОМАРТ"
+                >
+                Компания
+                </a>
+              </li>
+              <li class="main-navigation__item">
+                <a 
+                  class="main-navigation__link"
+                  href="catalog.html"
+                  aria-label="Переход на страницу каталога товаров"
+                >
+                Каталог
+                </a>
+              </li>
+              <li class="main-navigation__item">
+                <a 
+                  class="main-navigation__link"
+                  href="news.html"
+                  aria-label="Переход на новостную страницу компании ТЕХНОМАРТ "
+                >
+                Новости
+                </a>
+              </li>
+              <li class="main-navigation__item">
+                <a 
+                  class="main-navigation__link"
+                  href="offers.html"
+                  aria-label="Переход на страницу со спецпредложениями"
+                >
+                Спецпредложения
+                </a>
+              </li>
+              <li class="main-navigation__item">
+                <a 
+                  class="main-navigation__link"
+                  href="delivery.html"
+                  aria-label="Переход на страницу с описанием условий доставки"
+                >
+                Доставка
+                </a>
+              </li>
+              <li class="main-navigation__item">
+                <a 
+                  class="main-navigation__link"
+                  href="contacts.html"
+                  aria-label="Переход на страницу с контактной информацией"
+                >
+                Контакты
+                </a>
+              </li>
+            </ul>
+          </nav>
+       </div>
+        <!-- END NAVIGATION --> 
+      </div>        
+      <!-- END BANNER -->
+
+      <!-- PERFORATORS -->
+        <div class="perforators">
+          <div class="container">
+            <div class="path">
+                <ul class="path__list">
+                  <li class="path__item">
+                    <a  
+                      class="home__link" 
+                      href="index.html"
+                      aria-label="Перейи на главную страницу веб-сайта"
+                      >
+                      <img 
+                        src="img/svg/icon-home.svg" 
+                        width="14"
+                        height="12"
+                        alt="Иконка домашней страницы (домик)"
+                        >
+                    </a>
+                  </li>
+                  <li class="path__item">
+                    <a  
+                      class="path__link" 
+                      href="catalog.html"
+                      aria-label="Перейти на станицу каталога товаров"
+                      >
+                      Каталог
+                    </a>
+                  </li>
+                  <li class="path__item">
+                    <a  
+                      class="path__link" 
+                      href="tools.html"
+                      aria-label="Перейти на страницу категории товаров Инструмент"
+                      >
+                      Инструмент
+                    </a>
+                  </li>
+                  <li class="path__item">
+                    <a  
+                      class="path__link" 
+                      href="perforators.html"
+                      aria-label="Перейти на страницу товаров 'Перфораторы'"
+                      >
+                      Перфораторы
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <h1 class="product-title">
+                  Перфораторы
+              </h1>
+              <div class="perforators__offers">
+
+                <!-- FILTER -->
+                <aside class="filter">
+                  <div class="filter__title"> 
+                    ФИЛЬТР:
+                  </div>
+                  <form 
+                    action="https://echo.htmlacademy.ru"
+                    method="post"
+                    >
+                    <fieldset class="fieldset">
+                      <legend class="filter__name">
+                          ЦЕНА:
+                      </legend>
+                      <div class="wrap-price-range">
+                        <span class="range-indicator">
+                          <span class="range-indicator__wrap-center"></span>
+                        </span> 
+                        <input 
+                          class="price-range"
+                          type="range" 
+                          min="0" 
+                          max="35000" 
+                          step="10" 
+                          value="30000"
+                          aria-label="Фильтр товаров 'Цена'"
+                          >                         
+                      </div>
+                        <p class="price-result">
+                          <output 
+                            class="min-result"
+                            name="min-result"
+                            >
+                            0
+                          </output>
+                          <span class="between-output">-</span>
+                          <output 
+                            class="max-result"
+                            name="max-result"
+                            >
+                            30000
+                          </output>
+                        </p>
+                      
+                    </fieldset>
+                    <hr>                   
+                    <fieldset class="fieldset">
+                      <legend class="filter__name">
+                          ПРОИЗВОДИТЕЛИ:
+                      </legend>
+                      <ul>
+                        <li>
+                          <label 
+                            class="manufacturer__name"
+                            for="filter-bosch"
+                            >
+                            <input 
+                              class="visually-hidden"
+                              type="checkbox"
+                              name="bosch"
+                              checked
+                              id="filter-bosch"
+                              aria-label="Выбрать производителя BOSCH"
+                              >
+                              <span class="checkbox-indicator"></span>
+                              BOSCH
+                          </label>
+                        </li>
+                        <li>
+                          <label 
+                            class="manufacturer__name"
+                            for="filter-interskol"
+                            >
+                            <input 
+                              class="visually-hidden"
+                              type="checkbox"
+                              name="interskol"
+                              id="filter-interskol"
+                              aria-label="Выбрать производителя ИНТЕРСКОЛ"
+                              >
+                              <span class="checkbox-indicator"></span>
+                            ИНТЕРСКОЛ
+                          </label>
+                        </li>
+                        <li>
+                          <label 
+                            class="manufacturer__name"
+                            for="filter-makita"
+                            >
+                            <input
+                              class="visually-hidden" 
+                              type="checkbox"
+                              name="makita"
+                              checked
+                              aria-label="Выбрать производителя MAKIta"
+                              id="filter-makita"
+                              >
+                              <span class="checkbox-indicator"></span>
+                            MAKIta
+                          </label>
+                        </li>
+                        <li>
+                          <label 
+                            class="manufacturer__name"
+                            for="filter-dewalt"
+                            >
+                            <input 
+                              class="visually-hidden"
+                              type="checkbox"
+                              name="dewalt"
+                              id="filter-dewalt"
+                              aria-label="Выбрать производителя Dewalt"
+                              >
+                              <span class="checkbox-indicator"></span>
+                              Dewalt
+                          </label>
+                        </li>
+                        <li>
+                            <label 
+                              class="manufacturer__name"                              
+                              for="filter-hitachi"
+                              >
+                              <input
+                                class="visually-hidden"
+                                type="checkbox"
+                                name="hitachi"
+                                id="filter-hitachi"
+                                aria-label="Выбрать производителя Hitachi"                            
+                                >
+                                <span class="checkbox-indicator"></span>
+                              Hitachi
+                            </label>
+                        </li>
+                      </ul>
+                    </fieldset>
+                    <hr>
+                    <fieldset class="fieldset">
+                        <legend class="filter__name">
+                            ПИТАНИЕ:
+                        </legend>
+                        <ul>
+                          <li>
+                            <label 
+                              class="power__type"
+                              for="filter-rechargeable"
+                              >
+                              <input 
+                                class="visually-hidden"
+                                type="radio"
+                                name="power-of-perforator"                              
+                                id="filter-rechargeable"
+                                value="rechargeable"
+                                checked
+                                aria-label="Выбрать перфораторы с аккумуляторным питанием"                                                          
+                                >
+                                <span class="radio-indicator"></span>
+                              Аккумуляторные
+                            </label>
+                          </li>
+                          <li>
+                            <label 
+                              class="power__type"
+                              for="filter-network"
+                              >
+                              <input 
+                                class="visually-hidden"
+                                type="radio"
+                                name="power-of-perforator"
+                                id="filter-network"
+                                value="network"
+                                aria-label="Выбрать перфораторы с питанием от электросети"                                                          
+                                >
+                                <span class="radio-indicator"></span>
+                              Сетевые
+                            </label>
+                          </li>
+                        </ul>
+                      </fieldset>
+                    <button 
+                      class="filter__btn"
+                      aria-label="Применить установленые фильтры"
+                      >
+                        ПОКАЗАТЬ
+                    </button>
+                  </form>
+                </aside>
+                <!-- END FILTER -->
+
+                <div>
+                  <div class="sorting">
+                    <span class="sorting__title">
+                        СОРТИРОВКА:
+                    </span>
+                    <div class="sorting-btn-wrap">
+                        <button 
+                        class="sorting-by-price"
+                        aria-label="Отсортировать товары по цене"
+                        >
+                          ПО ЦЕНЕ
+                      </button>
+                      <button 
+                        class="sorting-by-type"
+                        aria-label="Отсортировать товары по типу"                      
+                        >
+                          ПО ТИПУ
+                      </button>
+                      <button 
+                        class="sorting-by-functional"
+                        aria-label="Отсортировать товары по функционалу"                      
+                        >
+                          ПО ФУНКЦИОНАЛУ
+                      </button>
+                      <button class="sorting-up-dir">
+                        <img 
+                          class="sorting-up-dir__icon"
+                          src="img/svg/icon-up-dir.svg" 
+                          width="11"
+                          height="10"
+                          alt="Стрелка вверх"
+                          aria-label="Отсортировать товары по возрастанию"
+                        >
+                      </button>
+                      <button class="sorting-down-dir">
+                        <img 
+                          class="sorting-down-dir__icon"
+                          src="img/svg/icon-down-dir.svg" 
+                          width="11"
+                          height="10"
+                          alt="Стрелка вверх"
+                          aria-label="Отсортировать товары по убыванию"
+                        >
+                      </button>
+                    </div>
+                  </div>
+                  <div class="card-product">
+                    <div class="card-product__row">
+                      <article class="card-product__cell">
+                        <span class="new-product">new</span>
+                        <div class="card-product__btn">
+                          <img 
+                            class="card-product__images"
+                            src="img/products-perforator-bosch-bfg-3000.jpg" 
+                            width="218"
+                            height="170"
+                             alt="Перфоратор BOSCH"
+                          >
+                          <div class="card-product__btn-wrap">
+                              <button 
+                                class="card-product__btn--buy"
+                                aria-label="Переход на страницу оформления заказа"              
+                                >
+                                Купить
+                              </button>
+                              <button 
+                                class="card-product__btn--to-bookmark"
+                                aria-label="Переход на страницу закладок веб-сайта ТЕХНОМАРТ"              
+                                >
+                                  В закладки
+                              </button>
+                            </div>
+                          </div>
+                          <h2 class="card-product__title">
+                            Перфоратор BOSCH                            
+                            BFG 3000
+                          </h2>
+                          <p class="old-price">
+                            22500 Р.
+                          </p>
+                          <p class="new-price">
+                            15500 Р.
+                          </p>
+                        </article>
+                        <article class="card-product__cell">
+                          <span class="new-product">new</span>
+                          <div class="card-product__btn">
+                            <img 
+                              class="card-product__images"
+                              src="img/products-perforator-bosch-bfg-6000.jpg" 
+                              width="218"
+                              height="170"
+                               alt="Перфоратор BOSCH"
+                            >
+                            <div class="card-product__btn-wrap">
+                                <button 
+                                  class="card-product__btn--buy"
+                                  aria-label="Переход на страницу оформления заказа"              
+                                  >
+                                  Купить
+                                </button>
+                                <button 
+                                  class="card-product__btn--to-bookmark"
+                                  aria-label="Переход на страницу закладок веб-сайта ТЕХНОМАРТ"              
+                                  >
+                                    В закладки
+                                </button>
+                              </div>
+                            </div>
+                            <h2 class="card-product__title">
+                              Перфоратор BOSCH                              
+                              BFG 6000
+                            </h2>
+                            <p class="old-price">
+                              30500 Р.
+                            </p>
+                            <p class="new-price">
+                              25500 Р.
+                            </p>
+                          </article>
+                          <article class="card-product__cell">
+                            <span class="new-product show-mark">new</span>
+                            <div class="card-product__btn">
+                              <img 
+                                class="card-product__images"
+                                src="img/products-perforator-bosch-bfg-2000.jpg" 
+                                width="218"
+                                height="170"
+                                 alt="Перфоратор BOSCH"
+                              >
+                              <div class="card-product__btn-wrap">
+                                  <button 
+                                    class="card-product__btn--buy"
+                                    aria-label="Переход на страницу оформления заказа"              
+                                    >
+                                    Купить
+                                  </button>
+                                  <button 
+                                    class="card-product__btn--to-bookmark"
+                                    aria-label="Переход на страницу закладок веб-сайта ТЕХНОМАРТ"              
+                                    >
+                                      В закладки
+                                  </button>
+                                </div>
+                              </div>
+                              <h2 class="card-product__title card-product__title--without-old-price">
+                                Перфоратор BOSCH                                
+                                BFG 2000
+                              </h2>
+                              <p class="new-price">
+                                12500 Р.
+                              </p>
+                          </article>
+                      </div>
+                      <div class="card-product__row">
+                          <article class="card-product__cell">
+                            <span class="new-product">new</span>
+                            <div class="card-product__btn">
+                              <img 
+                                class="card-product__images"
+                                src="img/products-perforator-bosch-bfg-3000.jpg" 
+                                width="218"
+                                height="170"
+                                 alt="Перфоратор BOSCH"
+                              >
+                              <div class="card-product__btn-wrap">
+                                  <button 
+                                    class="card-product__btn--buy"
+                                    aria-label="Переход на страницу оформления заказа"              
+                                    >
+                                    Купить
+                                  </button>
+                                  <button 
+                                    class="card-product__btn--to-bookmark"
+                                    aria-label="Переход на страницу закладок веб-сайта ТЕХНОМАРТ"              
+                                    >
+                                      В закладки
+                                  </button>
+                                </div>
+                              </div>
+                              <h2 class="card-product__title">
+                                Перфоратор BOSCH                                
+                                BFG 3000
+                              </h2>
+                              <p class="old-price">
+                                22500 Р.
+                              </p>
+                              <p class="new-price">
+                                15500 Р.
+                              </p>
+                            </article>
+                            <article class="card-product__cell">
+                              <span class="new-product show-mark">new</span>
+                              <div class="card-product__btn">
+                                <img 
+                                  class="card-product__images"
+                                  src="img/products-perforator-bosch-bfg-6000.jpg" 
+                                  width="218"
+                                  height="170"
+                                   alt="Перфоратор BOSCH"
+                                >
+                                <div class="card-product__btn-wrap">
+                                    <button 
+                                      class="card-product__btn--buy"
+                                      aria-label="Переход на страницу оформления заказа"              
+                                      >
+                                      Купить
+                                    </button>
+                                    <button 
+                                      class="card-product__btn--to-bookmark"
+                                      aria-label="Переход на страницу закладок веб-сайта ТЕХНОМАРТ"              
+                                      >
+                                        В закладки
+                                    </button>
+                                  </div>
+                                </div>
+                                <h2 class="card-product__title">
+                                  Перфоратор BOSCH                                  
+                                  BFG 6000
+                                </h2>
+                                <p class="old-price">
+                                  30500 Р.
+                                </p>
+                                <p class="new-price">
+                                  25500 Р.
+                                </p>
+                              </article>
+                              <article class="card-product__cell">
+                                <span class="new-product">new</span>
+                                <div class="card-product__btn">
+                                  <img 
+                                    class="card-product__images"
+                                    src="img/products-perforator-bosch-bfg-2000.jpg" 
+                                    width="218"
+                                    height="170"
+                                     alt="Перфоратор BOSCH"
+                                  >
+                                  <div class="card-product__btn-wrap">
+                                      <button 
+                                        class="card-product__btn--buy"
+                                        aria-label="Переход на страницу оформления заказа"              
+                                        >
+                                        Купить
+                                      </button>
+                                      <button 
+                                        class="card-product__btn--to-bookmark"
+                                        aria-label="Переход на страницу закладок веб-сайта ТЕХНОМАРТ"              
+                                        >
+                                          В закладки
+                                      </button>
+                                    </div>
+                                  </div>
+                                  <h2 class="card-product__title card-product__title--without-old-price">
+                                    Перфоратор BOSCH                                    
+                                    BFG 2000
+                                  </h2>
+                                  <p class="new-price">
+                                    12500 Р.
+                                  </p>
+                              </article>
+                          </div>
+                          <div class="card-product__row">
+                              <article class="card-product__cell">
+                                <span class="new-product show-mark">new</span>
+                                <div class="card-product__btn">
+                                  <img 
+                                    class="card-product__images"
+                                    src="img/products-perforator-bosch-bfg-3000.jpg" 
+                                    width="218"
+                                    height="170"
+                                     alt="Перфоратор BOSCH"
+                                  >
+                                  <div class="card-product__btn-wrap">
+                                      <button 
+                                        class="card-product__btn--buy"
+                                        aria-label="Переход на страницу оформления заказа"              
+                                        >
+                                        Купить
+                                      </button>
+                                      <button 
+                                        class="card-product__btn--to-bookmark"
+                                        aria-label="Переход на страницу закладок веб-сайта ТЕХНОМАРТ"              
+                                        >
+                                          В закладки
+                                      </button>
+                                    </div>
+                                  </div>
+                                  <h2 class="card-product__title">
+                                    Перфоратор BOSCH                                    
+                                    BFG 3000
+                                  </h2>
+                                  <p class="old-price">
+                                    22500 Р.
+                                  </p>
+                                  <p class="new-price">
+                                    15500 Р.
+                                  </p>
+                                </article>
+                                <article class="card-product__cell">
+                                  <span class="new-product">new</span>
+                                  <div class="card-product__btn">
+                                    <img 
+                                      class="card-product__images"
+                                      src="img/products-perforator-bosch-bfg-6000.jpg" 
+                                      width="218"
+                                      height="170"
+                                       alt="Перфоратор BOSCH"
+                                    >
+                                    <div class="card-product__btn-wrap">
+                                        <button 
+                                          class="card-product__btn--buy"
+                                          aria-label="Переход на страницу оформления заказа"              
+                                          >
+                                          Купить
+                                        </button>
+                                        <button 
+                                          class="card-product__btn--to-bookmark"
+                                          aria-label="Переход на страницу закладок веб-сайта ТЕХНОМАРТ"              
+                                          >
+                                            В закладки
+                                        </button>
+                                      </div>
+                                    </div>
+                                    <h2 class="card-product__title">
+                                      Перфоратор BOSCH                                      
+                                      BFG 6000
+                                    </h2>
+                                    <p class="old-price">
+                                      30500 Р.
+                                    </p>
+                                    <p class="new-price">
+                                      25500 Р.
+                                    </p>
+                                  </article>
+                                  <article class="card-product__cell">
+                                    <span class="new-product">new</span>
+                                    <div class="card-product__btn">
+                                      <img 
+                                        class="card-product__images"
+                                        src="img/products-perforator-bosch-bfg-2000.jpg" 
+                                        width="218"
+                                        height="170"
+                                         alt="Перфоратор BOSCH"
+                                      >
+                                      <div class="card-product__btn-wrap">
+                                          <button 
+                                            class="card-product__btn--buy"
+                                            aria-label="Переход на страницу оформления заказа"              
+                                            >
+                                            Купить
+                                          </button>
+                                          <button 
+                                            class="card-product__btn--to-bookmark"
+                                            aria-label="Переход на страницу закладок веб-сайта ТЕХНОМАРТ"              
+                                            >
+                                              В закладки
+                                          </button>
+                                        </div>
+                                      </div>
+                                      <h2 class="card-product__title card-product__title--without-old-price">
+                                        Перфоратор BOSCH                                        
+                                        BFG 2000
+                                      </h2>
+                                      <p class="new-price">
+                                        12500 Р.
+                                      </p>
+                                  </article>
+                              </div>
+                        <!-- POPUP CATALOG -->
+                        <div class="popup-added-product">
+                          <div class="popup-added-product__close-btn">
+                            <button  
+                              class="popup-added-product__close-button"
+                              aria-label="Закрыть модальное окно"
+                              >
+                              <img 
+                              class="popup-added-product__close-btn-img"
+                              src="img/svg/icon-close.svg" 
+                              width="21"
+                              height="21"
+                              alt="Иконка 'Закрыть' (красный крестик)"
+                              >
+                            </button>
+                          </div>
+                          <div class="popup-added-product__info">
+                            <img 
+                              class="popup-added-product__done-icon"
+                              src="img/svg/icon-mark.svg" 
+                              width="66"
+                              height="66"
+                              alt="Иконка 'Выполнено' (белая галочка в зеленом круге)"
+                              >
+                            <p class="popup-added-product__text">
+                              Товар добавлен в корзину!
+                            </p>
+                          </div>
+                          <div class="popup-added-product__btns">
+                            <a 
+                              class="popup-added-product__button"
+                              href="order.html"
+                              aria-label="Перейти на страницу оформления заказа"
+                              >
+                              ОФОРМИТЬ ЗАКАЗ
+                            </a>
+                            <button 
+                              class="popup-added-product__button popup-added-product__button--contitue"
+                              aria-label="Закрыть модальное окно и продолжить покупки"
+                              >
+                              ПРОДОЛЖИТЬ ПОКУПКИ
+                            </button>
+                          </div>
+                        </div>
+                        <!-- END POPUP 'ADDED PRODUCT' -->
+                    </div>
+                    <p class="page-switch">
+                        <a 
+                          class="page"
+                          id="page--active"
+                          href="perforator-page-1.html"
+                          aria-label="Перейти на страницу товаров № 1"
+                          >
+                          1
+                        </a>
+                        <a 
+                          class="page"
+                          href="perforator-page-2.html"
+                          aria-label="Перейти на страницу товаров № 2"
+                          >
+                          2
+                        </a>
+                        <a 
+                          class="page"
+                          href="perforator-page-3.html"
+                          aria-label="Перейти на страницу товаров № 3"
+                          >
+                          3
+                        </a>
+                        <a 
+                          class="page"
+                          href="perforator-page-next.html"
+                          aria-label="Перейти на следующую страницу товаров"
+                          >
+                          СЛЕДУЮЩАЯ
+                        </a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+          </div>
+        <!-- END PERFORATORS -->
+
+        <!-- INFO -->
+        <div class="info">
+          <div class="container">
+            <h3 class="info__title">
+                ПАРА СЛОВ О ПЕРФОРАТОРАХ
+            </h3>
+            <p class="info__description">
+                Перфоратор — универсальный строительный инструмент. 
+                Предназначен для сверления и долбления отверстий в кирпиче, бетоне и камне.
+                Существуют электромеханические и пневматические перфораторы. 
+                Современные модели могут выполнять функции дрели, шуруповерта и отбойного молотка. 
+                В ассортиментном ряду есть выбор «трехрежимников»: 
+                в одном устройстве будут совмещены отбойный молоток и ударная дрель.
+            </p>
+          </div>
+        </div>
+        <!-- END INFO -->
+      </main>
+      <!-- END MAIN -->
+
+      <!-- FOOTER -->
+      <footer class="main-footer">
+          <div class="main-footer__top">
+            <div class="container">
+              <div  class="main-footer__top--logo">
+                <a 
+                  class="footer-logo"
+                  href="index.html"
+                  aria-label="Обновить главную страницу веб-сайта ТЕХНОМАРТ"
+                  >
+                  <img 
+                    class="footer-logo__img" 
+                    src="img/svg/logo-technomart.svg"
+                    width="138"
+                    height="23"
+                    alt="Логотип веб-сайта (Надпись 'ТЕХНОМАРТ')"
+                    >
+                </a>
+  
+                <!-- FOOTER NAVIGATION -->
+                <nav class="footer-navigation-top">
+                  <ul class="footer-navigation-top__list">
+                      <li class="footer-navigation-top__item">
+                        <a 
+                          class="footer-navigation-top__link"
+                          href="company.html"
+                          aria-label="Перейти на страницу с информацией о компании ТЕХНОМАРТ"
+                          >
+                          Компания
+                        </a>
+                      </li>
+                      <li class="footer-navigation-top__item">
+                        <a 
+                          class="footer-navigation-top__link"
+                          href="news.html"
+                          aria-label="Перейти на новостную страницу сайта"                        
+                          >
+                          Новости
+                        </a>
+                      </li>
+                      <li class="footer-navigation-top__item">
+                        <a 
+                          class="footer-navigation-top__link"
+                          href="catalog.html"
+                          aria-label="Перейти в каталог товаров"                        
+                          >
+                          Каталог
+                        </a>
+                      </li>
+                      <li class="footer-navigation-top__item">
+                        <a 
+                          class="footer-navigation-top__link"
+                          href="delivery.html"
+                          aria-label="Перейти на страницу с описанием условий доставки товаров"
+                          >
+                          Доставка
+                        </a>
+                      </li>
+                      <li class="footer-navigation-top__item">
+                        <a 
+                          class="footer-navigation-top__link"
+                          href="contacts.html"
+                          aria-label="Перейти на страницу с контактной информацией"
+                          >
+                          Контакты
+                        </a>
+                      </li>
+                  </ul>
+                </nav>
+                <!-- END FOOTER NAVIGATION -->
+              </div>
+  
+              <div  class="main-footer__top--address">       
+                <address class="footer-address">
+                    г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8                    
+                    <a
+                  class="footer-tel"
+                  href="tel:+78125550555"
+                  title="Осуществить вызов в колл-центр интернет-магазина 'ТЕХНОМАРТ'"
+                  aria-label="Осуществить вызов в колл-центр интернет-магазина 'ТЕХНОМАРТ'"
+                  >
+                    +7 (812) 555-05-55
+                  </a>
+                </address>
+  
+                <!-- PRODUCT CATEGORY NAVIGATION -->
+                <nav class="footer-navigation-bottom">
+                  <ul class="footer-navigation-bottom__list">
+                      <li class="footer-navigation-bottom__item">
+                        <a 
+                          class="footer-navigation-bottom__link"
+                          href="materials.html"
+                          aria-label="Перейти на страницу с товарами в категории 'Материалы'"
+                          >
+                          Материалы
+                        </a>
+                      </li>
+                      <li class="footer-navigation-bottom__item">
+                        <a 
+                          class="footer-navigation-bottom__link"
+                          href="equipment.html"
+                          aria-label="Перейти на страницу с товарами в категории 'Техника'"
+                          >
+                          Техника
+                        </a>
+                      </li>
+                      <li class="footer-navigation-bottom__item">
+                        <a 
+                          class="footer-navigation-bottom__link"
+                          href="tools.html"
+                          aria-label="Перейти на страницу с товарами в категории 'Инструмент'"
+                          >
+                          Инструмент
+                        </a>
+                      </li>
+                      <li class="footer-navigation-bottom__item">
+                        <a 
+                          class="footer-navigation-bottom__link"
+                          href="offers.html"
+                          aria-label="Перейти на страницу со спецпредложениями"
+                          >
+                          Спецпредложения
+                        </a>
+                      </li>
+                    </ul>
+                </nav>
+                <!-- END PRODUCT CATEGORY NAVIGATION -->
+  
+              </div>
+            </div>
+          </div>
+          <div class="main-footer__bottom">
+            <div class="container main-footer__bottom-container">
+              <p class="main-footer__copyright--left">
+                  &#169; 2010–2019 Компания «Техномарт»                  
+                  Все права защищены
+              </p>
+              <ul class="social_list">
+                <li>
+                  <a 
+                  class="social_button"
+                  href="https://vk.com/"
+                  aria-label="Перейти на страницу интернет-магазина ТЕХНОМАРТ Вконтакте"
+                  target="_blank"
+                  >
+                    Вконтакте
+                  </a>
+                </li>
+                <li>
+                  <a 
+                  class="social_button"
+                  href="https://www.facebook.com/"
+                  aria-label="Перейти на страницу интернет-магазина ТЕХНОМАРТ на Фейсбук"
+                  target="_blank"
+                  >
+                    Фейсбук
+                  </a>
+                </li>
+                <li>
+                  <a 
+                  class="social_button"
+                  href="https://www.instagram.com/"
+                  aria-label="Перейти на страницу интернет-магазина ТЕХНОМАРТ в Инстаграм"
+                  target="_blank"
+                  >
+                    Инстаграм
+                  </a>
+                </li>
+              </ul>
+              <div class="main-footer__copyright--right">
+                <p class="footer-feedback">
+                    Обратная связь:
+                    
+                    <a
+                    class="feedback__link"
+                    href="mailto:mail@htmlacademy.ru"
+                    title="Написать"
+                    aria-label="Написать на mail@htmlacademy.ru"
+                    >
+                    mail@htmlacademy.ru
+                  </a>
+                    
+                </p>              
+                <p class="developed">
+                    Разработано —                    
+                    <a 
+                      class="developed__link"
+                      href="https://htmlacademy.ru/intensive/htmlcss"
+                      target="_blank"
+                      aria-label="Перейти на веб-сайт разработчиков"
+                      >
+                        htmlacademy.ru
+                    </a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </footer>
+        <!-- END FOOTER -->
+
+      <div class="popup-overlay"></div>
+    </div>
+
+    <!-- SCRPTS -->
+    <script src="js/script.js"></script>
+    <!-- END SCRIPTS -->
+  </body>
+</html>
